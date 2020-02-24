@@ -24,3 +24,34 @@ https://github.com/LcenArthas/JDATA-2019-Snow_leopard.git
  其余环境请参考 [mmdetection](https://github.com/open-mmlab/mmdetection)
  
  ------------------------------------------------------------
+ 
+ :sparkles: 训练部分
+--------
+
+## :one: 准备数据
+:small_orange_diamond: 训练集放入  `./data/train/`, 测试集放入  `./data/test/`, 自助标注的图片和坐标放入  `./data/det_train/`
+
+- [自助标注检测文件下载](https://pan.baidu.com/s/1XHUkFgRvyhmnyf8p101v2Q) 
+
+:small_orange_diamond: 将视频数据分割成图片：
+
+```
+cd ./data/
+mkdir pic_train/
+python cls/processing/vidio_to_pic.py
+```
+
+:small_orange_diamond: 将：
+
+```
+cd data
+python pre_data.py
+```
+
+## :two: 开始训练
+
+```
+python train.py
+```
+
+----------------------------------------------------
