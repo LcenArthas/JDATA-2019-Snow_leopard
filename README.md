@@ -41,11 +41,18 @@ mkdir pic_train/
 python cls/processing/vidio_to_pic.py
 ```
 
-:small_orange_diamond: 将：
+:small_orange_diamond: 将标注的数据集转换成Coco格式：
 
 ```
-cd data
-python pre_data.py
+python cls/processing/make_data_tomm.py
+```
+
+:small_orange_diamond: 设置预训练模型：
+ 将COCO预训练模型放入  `./det/pre_model/`中
+ - [coco预训练模型](https://pan.baidu.com/s/1XHUkFgRvyhmnyf8p101v2Q) 
+
+```
+python det/change_premodel.py
 ```
 
 ## :two: 开始训练
