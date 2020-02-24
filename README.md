@@ -58,7 +58,50 @@ python det/change_premodel.py
 ## :two: 开始训练
 
 ```
-python train.py
+cd ./det/
+python ./tools/train.py configs/cascade_rcnn_x101_64x4d_fpn_1x.py
 ```
 
 ----------------------------------------------------
+
+:sparkles: 测试部分
+--------
+
+## :one: 配置测试集文件
+
+把测试集的视频切分成图片：
+
+```
+python cls/processing/test_video_to_pic.py
+```
+
+## :two: 下载训练好的模型模型
+
+检测模型：(放置在 `./det/work_dirs/` 中)
+- [SE-LResNet101E-IR](https://pan.baidu.com/s/1XHUkFgRvyhmnyf8p101v2Q) 
+
+分类模型：(放置在 `./cls/checkpoints/vgg19/` 中)
+- [SE-LResNet101E-IR](https://pan.baidu.com/s/1XHUkFgRvyhmnyf8p101v2Q)
+
+------------------------------------------------------
+
+:clap: 开始！
+--------
+
+- 检测：
+
+```
+python python det/demo_test.py
+```
+
+- 分类：
+
+```
+python cls/test.py
+```
+
+输出做后的提交结果 `submission_new.csv`
+
+:smile: 欢迎Star！
+-------------
+
