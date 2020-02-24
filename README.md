@@ -31,7 +31,7 @@ https://github.com/LcenArthas/JDATA-2019-Snow_leopard.git
 ## :one: 准备数据
 :small_orange_diamond: 训练集放入  `./data/train/`, 测试集放入  `./data/test/`, 自助标注的图片和坐标放入  `./data/det_train/`
 
-- [自助标注检测文件下载](https://pan.baidu.com/s/1XHUkFgRvyhmnyf8p101v2Q) 
+- [自助标注检测文件下载](https://pan.baidu.com/s/164TWkrYJE18NRxATAJVcqw) （opsq）
 
 :small_orange_diamond: 将视频数据分割成图片：
 
@@ -49,7 +49,7 @@ python cls/processing/make_data_tomm.py
 
 :small_orange_diamond: 设置预训练模型：
  将COCO预训练模型放入  `./det/pre_model/`中
- - [coco预训练模型](https://pan.baidu.com/s/1XHUkFgRvyhmnyf8p101v2Q) 
+ - [coco预训练模型](https://pan.baidu.com/s/1mIq4sTsLgw4lJCKH_hqC-w) (eg3v)
 
 ```
 python det/change_premodel.py
@@ -78,10 +78,10 @@ python cls/processing/test_video_to_pic.py
 ## :two: 下载训练好的模型模型
 
 检测模型：(放置在 `./det/work_dirs/` 中)
-- [SE-LResNet101E-IR](https://pan.baidu.com/s/1XHUkFgRvyhmnyf8p101v2Q) 
+- [百度网盘](https://pan.baidu.com/s/1X_5omjrU6jTHPpRGe4UkgA) (gk1a)
 
 分类模型：(放置在 `./cls/checkpoints/vgg19/` 中)
-- [SE-LResNet101E-IR](https://pan.baidu.com/s/1XHUkFgRvyhmnyf8p101v2Q)
+- [百度网盘](https://pan.baidu.com/s/1Q7sAqZoJgbU1moUCjtSz9A) (lthy)
 
 ------------------------------------------------------
 
