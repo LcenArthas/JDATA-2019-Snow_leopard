@@ -12,7 +12,7 @@
 ## :one: 下载代码
 
 ```
-git clone https://github.com/LcenArthas/CCF-BDCI2019-Multi-person-Face-Recognition-Competition-Baseline.git
+https://github.com/LcenArthas/JDATA-2019-Snow_leopard.git
 ```
 
 ## :two: 配置环境
@@ -20,7 +20,7 @@ git clone https://github.com/LcenArthas/CCF-BDCI2019-Multi-person-Face-Recogniti
  - Ubantu16.04
 
  - Python 3.6
-
- - PyTorch 1.0.0
+ 
+ 其余环境请参考 [mmdetection](https://github.com/open-mmlab/mmdetection)
  
  ------------------------------------------------------------
